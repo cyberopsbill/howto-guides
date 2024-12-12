@@ -1,17 +1,16 @@
-# Welcome to MkLorum
+# Welcome to infosecintel's docs page
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## What can you expect to find on this page?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* Tutorials
+* How-to Guides
+* Reference Documentation
+* Other Resources
 
-## Project layout
+## Additional Information
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Use the navigation menu on the left-hand side of the page to see what resources are available.
+
+If you have any questions, feel free to reach out to <admin@infosecintel.net>
