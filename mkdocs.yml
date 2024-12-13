@@ -6,8 +6,11 @@ nav:
   - "Website Configs": webpage-configs.md
 
 theme: readthedocs
+
+theme:
   features:
     - content.code.copy
+    - content.code.select
 
 markdown_extensions:
 
