@@ -37,7 +37,6 @@ Implementing a 301 redirect can help address the untrusted SSL certificate vulne
         ```
 
 3. **Test the Configuration**: After applying the changes, restart your web server to ensure the new configuration is loaded. Test the redirect by accessing the server using the IP address to verify that it correctly redirects to the domain.
-
 ### Considerations
 
 - **Security**: Ensure that the redirection does not inadvertently expose any security vulnerabilities, such as open redirects.
@@ -45,9 +44,8 @@ Implementing a 301 redirect can help address the untrusted SSL certificate vulne
 
 By implementing the 301 redirect, you can effectively mitigate the untrusted SSL certificate vulnerability when users attempt to access your web server using its IP address.
 
-!!! But what about those open redirects?
+!!! question "But what about those open redirects?"
     An open redirect is a type of security vulnerability that occurs when a web application accepts user-controlled input to generate a URL for redirection without proper validation or restrictions. This can be exploited by attackers to redirect users to malicious sites without their knowledge or consent. Here’s how open redirects work and why they are a concern:
-
 
 #### How Open Redirects Work
 
@@ -56,7 +54,6 @@ By implementing the 301 redirect, you can effectively mitigate the untrusted SSL
 2. **Lack of Validation**: If the application does not validate or restrict the destination URL, an attacker can manipulate the input to redirect users to a malicious website.
 
 3. **Exploitation**: An attacker crafts a URL that appears legitimate because it originates from a trusted domain but includes a parameter pointing to a malicious site. When users click the link, they are unknowingly redirected to the attacker’s site.
-
 
 #### Why Open Redirects Are Dangerous
 
