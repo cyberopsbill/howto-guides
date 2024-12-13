@@ -1,6 +1,15 @@
 site_name: infosecintelDocs
+
 nav:
   - Home: index.md
   - About: about.md
   - "Website Configs": webpage-configs.md
+
 theme: readthedocs
+
+markdown_extensions:
+
+    # Python Markdown Extensions
+    - pymdownx.superfences
+    - admonition
+    - pymdownx.details
