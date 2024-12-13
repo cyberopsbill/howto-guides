@@ -6,7 +6,7 @@ nav:
   - "Website Configs": webpage-configs.md
 
 theme:
-  name: readthedocs
+  name: material
   features:
     - content.code.copy
     - content.code.select
