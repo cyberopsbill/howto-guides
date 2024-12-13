@@ -46,7 +46,7 @@ By implementing the 301 redirect, you can effectively mitigate the untrusted SSL
 
 !!! question "But what about those open redirects?"
 
-    An open redirect is a type of security vulnerability that occurs when a web application accepts user-controlled input to generate a URL for redirection without proper validation or restrictions. This can be exploited by attackers to redirect users to malicious sites without their knowledge or consent. Here’s how open redirects work and why they are a concern:
+    An open redirect is a type of security vulnerability that occurs when a web application accepts user-controlled input to generate a URL for redirection without proper validation or restrictions. This can be exploited by attackers to redirect users to malicious sites without their knowledge or consent. It's important to understand how open redirects work, why they are problematic, and what we can do to prevent them.
 
 #### How Open Redirects Work
 
