@@ -19,22 +19,20 @@ When a vulnerability scanner is showing an untrusted SSL certificate vulnerabili
 2. **Add Redirect Rules**:
 
     - For **Apache**, you can use the `RewriteEngine` and `RewriteRule` directives in your `.htaccess` file or in the main configuration file:
-<br>
-        ```
+
         RewriteEngine On
         RewriteCond %{HTTP_HOST} ^your.ip.address$
         RewriteRule ^(.*)$ https://yourdomain.com$1 [R=301,L]
-        ```
-<br>
+
+
     - For **Nginx**, use the `return` directive in the server block handling the IP address:
-        ```
+
         server {
             listen 80;
             server_name your.ip.address;
             return 301 https://yourdomain.com$request_uri;
         }
-        ```
-<br>
+
 3. **Test the Configuration**: After applying the changes, restart your web server to ensure the new configuration is loaded. Test the redirect by accessing the server using the IP address to verify that it correctly redirects to the domain.
     
 
@@ -117,7 +115,6 @@ Here are examples of both Apache and Nginx configurations that incorporate mitig
 
 ```apache
 
-apacheCopy code
 <VirtualHost *:80>
     # Define the server name and alias
     ServerName example.com
@@ -151,7 +148,6 @@ apacheCopy code
 
 ```nginx
 
-nginxCopy code
 server {
     # Listen on port 80 for incoming HTTP requests
     listen 80;
