@@ -45,6 +45,7 @@ Implementing a 301 redirect can help address the untrusted SSL certificate vulne
 By implementing the 301 redirect, you can effectively mitigate the untrusted SSL certificate vulnerability when users attempt to access your web server using its IP address.
 
 !!! question "But what about those open redirects?"
+
     An open redirect is a type of security vulnerability that occurs when a web application accepts user-controlled input to generate a URL for redirection without proper validation or restrictions. This can be exploited by attackers to redirect users to malicious sites without their knowledge or consent. Here’s how open redirects work and why they are a concern:
 
 #### How Open Redirects Work
