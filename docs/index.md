@@ -1,15 +1,15 @@
-# Welcome to infosecintel's docs page
+# Welcome to the infosecintel docs page
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## What can you expect to find on this page?
+### What can you expect to find on this page?
 
 * Tutorials
 * How-to Guides
+* Security Tools
 * Reference Documentation
 * Other Resources
 
-## Additional Information
+### Additional Information
 
 Use the navigation menu on the left-hand side of the page to see what resources are available.
 
