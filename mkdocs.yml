@@ -5,9 +5,7 @@ nav:
   - About: about.md
   - "Website Configs": webpage-configs.md
 
-theme: readthedocs
-
-theme: readthedocs
+theme:
   features:
     - content.code.copy
     - content.code.select
