@@ -7,7 +7,7 @@ nav:
 
 theme: readthedocs
 
-theme:
+theme: readthedocs
   features:
     - content.code.copy
     - content.code.select
